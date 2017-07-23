@@ -1,7 +1,12 @@
-drop database simes_maure;
-create database simes_maure;
+/*
+ *Código responsável pela modelagem do banco.
+ *Estruturado por Társila Silveira, Rickson Andrade, Pablo Santos, Felipe Alves e Pedro Andrade
+ *Codificado por Társila Silveira e Pedro Maure
+**/
+drop database simes;
+create database simes;
 
-use simes_maure;
+use simes;
 
 create table pessoa (
     cpf char(14) primary key,
